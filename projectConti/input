@@ -1,0 +1,15 @@
+ModuleName: ABS
+ModuleID: PN02945
+ResistorID: MAT2123
+QtyResistor: 21
+CapacitorID: MAE1245
+QtyCapacitor: 30
+Faulty: YES 
+
+ModuleName: ECU
+ModuleID: PN02912
+ResistorID: MAT2123
+QtyResistor: 15
+CapacitorID: MAE1245
+QtyCapacitor: 20
+Faulty: NO 
