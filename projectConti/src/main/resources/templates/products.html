@@ -13,8 +13,8 @@
           <img class="logo" src="/img/emblema2.jpg">
           <ul>
             <li><a href="index">Home</a></li>
-            <li><a class="active" href="products">Products</a></li>
-            <li><a href="reports">Reports</a></li>
+            <li><a class="active" th:href="@{/products}">Products</a></li>
+            <li><a  href="reports">Reports</a></li>
           </ul>
       </nav>
       <div class="container">
@@ -25,8 +25,8 @@
 		            <table class="table my-5">
 		                <thead>
 		                    <tr>
+		                    	<th>ModuleId</th>
 		                        <th>ModuleName</th>
-		                        <th>ModuleId</th>
 		                        <th>ResistorId</th>
 		                        <th>ResistorQty</th>
 		                        <th>CapacitorId</th>
@@ -35,7 +35,15 @@
 		                    </tr>
 		                </thead>
 		            <tbody>   
-		                 
+		               	<tr th:each="Product : ${product}">
+                 			<p><td th:text="${Product.productId}"></td></p> 	
+                     		<p><td th:text="${Product.moduleName}"></td></p>
+                     		<p><td th:text="${Product.resistorId}"></td></p> 
+                     		<p><td th:text="${Product.resistorQuantity}"></td></p>
+                     		<p><td th:text="${Product.capacitorId}"></td></p>
+                     		<p><td th:text="${Product.capacitorQuantity}"></td></p>
+                     		<p><td th:text="${Product.faulty}"></td></p>
+               		 	</tr>
 		            </tbody>
 		        	</table>
 			    </div>      

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="https://thymeleaf.org/thymeleaf-extras-springsecurity5">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +13,7 @@
           <img class="logo" src="img/emblema2.jpg">
           <ul>
             <li><a  class="active" href="index">Home</a></li>
-            <li><a href="products">Products</a></li>
+            <li><a th:href="@{/products}">Products</a></li>
             <li><a href="reports">Reports</a></li>
           </ul>
       </nav>
