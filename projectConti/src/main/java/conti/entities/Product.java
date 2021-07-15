@@ -22,7 +22,7 @@ public class Product {
 	public String capacitorId;
 	public long capacitorQuantity;
 	public String faulty;
-
+	
 	public Product() {
 		
 	}
@@ -93,7 +93,6 @@ public class Product {
 
 	public Product(Integer productId, String name, String moduleId, String resistorId, long resistorQuantity,
 			String capacitorId, long capacitorQuantity, String faulty) {
-		super();
 		this.productId = productId;
 		this.moduleName = name;
 		this.moduleId = moduleId;

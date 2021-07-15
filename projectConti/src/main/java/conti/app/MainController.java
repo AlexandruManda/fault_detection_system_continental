@@ -20,9 +20,9 @@ public class MainController {
 		return "reports";	
 	}
 	
-	@GetMapping("/products")
-	public String viewProductsPage() {
-		return "products";	
-	}
+//	@GetMapping("/products")
+//	public String viewProductsPage() {
+//		return "products";	
+//	}
 	
 }
