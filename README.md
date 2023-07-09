@@ -7,9 +7,8 @@ A dedicated application for overseeing production operations, featuring a user-f
 * This platform allows for timely interventions, efficient inventory management, and effective traceability, significantly improving production process control.
 
 # Tools and Technologies
-![image](https://github.com/AlexandruManda/ProiectConti/assets/82172947/fc460bd0-dadb-46c7-ac11-2648898686d4)
-
+![image](https://github.com/AlexandruManda/fault_detection_system_continental/assets/82172947/e3c00d9f-cabf-49a0-a8c4-fe41bd8ff5e3)
 
 # Demo
-https://github.com/AlexandruManda/ProiectConti/assets/82172947/e9ef0f56-2fb6-477c-bba9-e9bb646d6c4e
+https://github.com/AlexandruManda/fault_detection_system_continental/assets/82172947/87e0343b-b918-4652-88de-42425e2bd82b
 
