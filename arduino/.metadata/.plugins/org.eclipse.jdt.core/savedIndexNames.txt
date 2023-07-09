@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+D:\CONTI\Teme conti\Tema SW\arduino\.metadata\.plugins\org.eclipse.jdt.core
+3043429812.index
+2983257256.index
